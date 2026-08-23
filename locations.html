@@ -27,8 +27,8 @@
     {
       "@type": "MedicalClinic",
       "name": "Waverley Orthopaedic Clinic",
-      "description": "Primary consulting location of Dr Ravi Dissanayake, orthopaedic surgeon.",
-      "medicalSpecialty": "Orthopedic Surgery",
+      "description": "Primary consulting location of Dr Ravi Dissanayake, orthopaedic surgeon. Regular Tuesday clinic.",
+      "medicalSpecialty": "Orthopaedic Surgery",
       "telephone": "+61-3-8808-4000",
       "url": "https://www.rdortho.com.au/locations.html",
       "physician": { "@id": "https://www.rdortho.com.au/index.html#physician" },
@@ -40,13 +40,22 @@
         "postalCode": "3149",
         "addressCountry": "AU"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": -37.8771, "longitude": 145.1294 }
+      "geo": { "@type": "GeoCoordinates", "latitude": -37.8771, "longitude": 145.1294 },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday"], "opens": "08:00", "closes": "17:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "17:00" }
+      ],
+      "areaServed": ["Mount Waverley", "Ashwood", "Ashburton", "Burwood", "Chadstone", "Glen Iris", "Glen Waverley", "Malvern", "Murrumbeena", "Notting Hill", "Oakleigh", "Oakleigh South", "Wantirna South", "Wheelers Hill"],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible entrance", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible parking lot", "value": true }
+      ]
     },
     {
       "@type": "MedicalClinic",
       "name": "St John of God Hospital, Berwick (Consulting Rooms)",
-      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon.",
-      "medicalSpecialty": "Orthopedic Surgery",
+      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon. Wednesday clinic.",
+      "medicalSpecialty": "Orthopaedic Surgery",
       "telephone": "+61-3-8808-4000",
       "physician": { "@id": "https://www.rdortho.com.au/index.html#physician" },
       "address": {
@@ -54,15 +63,23 @@
         "streetAddress": "75 Kangan Drive",
         "addressLocality": "Berwick",
         "addressRegion": "VIC",
+        "postalCode": "3806",
         "addressCountry": "AU"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": -38.0450, "longitude": 145.3447 }
+      "geo": { "@type": "GeoCoordinates", "latitude": -38.0450, "longitude": 145.3447 },
+      "areaServed": ["Berwick", "Beaconsfield", "Clyde", "Clyde North", "Dandenong", "Dandenong South", "Doveton", "Endeavour Hills", "Hallam", "Narre Warren", "Narre Warren South", "Officer", "Officer South", "Pakenham", "Pakenham South", "Cranbourne"],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible entrance", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible restroom", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible parking lot", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "On-site paid parking", "value": true }
+      ]
     },
     {
       "@type": "MedicalClinic",
       "name": "Warragul Specialist Centre",
-      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon.",
-      "medicalSpecialty": "Orthopedic Surgery",
+      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon. Consults here once every 4 weeks, Friday morning.",
+      "medicalSpecialty": "Orthopaedic Surgery",
       "telephone": "+61-3-8808-4000",
       "physician": { "@id": "https://www.rdortho.com.au/index.html#physician" },
       "address": {
@@ -73,13 +90,18 @@
         "postalCode": "3820",
         "addressCountry": "AU"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": -38.1612, "longitude": 145.9318 }
+      "geo": { "@type": "GeoCoordinates", "latitude": -38.1612, "longitude": 145.9318 },
+      "areaServed": ["Warragul", "Warragul South", "Darnum", "Drouin", "Drouin East", "Lardner", "Lillico", "Morwell", "Yarragon", "Yarragon South", "Trafalgar", "Bona Vista", "Korumburra", "Nilma North", "Neerim South"],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible entrance", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible parking lot", "value": true }
+      ]
     },
     {
       "@type": "MedicalClinic",
       "name": "White Road Consulting Suites",
-      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon.",
-      "medicalSpecialty": "Orthopedic Surgery",
+      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon. Consults here approximately once every 8 weeks, Friday morning.",
+      "medicalSpecialty": "Orthopaedic Surgery",
       "telephone": "+61-3-8808-4000",
       "physician": { "@id": "https://www.rdortho.com.au/index.html#physician" },
       "address": {
@@ -90,13 +112,18 @@
         "postalCode": "3995",
         "addressCountry": "AU"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": -38.6059, "longitude": 145.5936 }
+      "geo": { "@type": "GeoCoordinates", "latitude": -38.6059, "longitude": 145.5936 },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible entrance", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible restroom", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible parking lot", "value": true }
+      ]
     },
     {
       "@type": "MedicalClinic",
       "name": "Cowes Medical Centre",
-      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon, servicing Phillip Island.",
-      "medicalSpecialty": "Orthopedic Surgery",
+      "description": "Consulting location of Dr Ravi Dissanayake, orthopaedic surgeon, servicing Phillip Island. Consults here on a Friday, once a month.",
+      "medicalSpecialty": "Orthopaedic Surgery",
       "telephone": "+61-3-8808-4000",
       "physician": { "@id": "https://www.rdortho.com.au/index.html#physician" },
       "address": {
@@ -104,9 +131,16 @@
         "streetAddress": "164 Thompson Avenue",
         "addressLocality": "Cowes",
         "addressRegion": "VIC",
+        "postalCode": "3922",
         "addressCountry": "AU"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": -38.4511, "longitude": 145.2419 }
+      "geo": { "@type": "GeoCoordinates", "latitude": -38.4511, "longitude": 145.2419 },
+      "areaServed": ["Cowes", "Ventnor", "Kilcunda", "Newhaven", "San Remo", "Inverloch", "Korumburra", "Cape Paterson", "Cape Woolamai", "Phillip Island"],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible entrance", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair accessible parking lot", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Free on-site parking", "value": true }
+      ]
     },
     {
       "@type": "Hospital",
@@ -164,6 +198,7 @@
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Specialty Services</a></li>
         <li><a href="locations.html" aria-current="page">Locations</a></li>
+        <li><a href="fees.html">Fees</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -183,6 +218,7 @@
       <li><a href="about.html">About</a></li>
       <li><a href="services.html">Specialty Services</a></li>
       <li><a href="locations.html" aria-current="page">Locations</a></li>
+      <li><a href="fees.html">Fees</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="contact-block">
@@ -215,6 +251,7 @@
           <span class="tag">Primary Location</span>
           <h3>Waverley Orthopaedic Clinic</h3>
           <address>501 Waverley Road<br>Mount Waverley VIC 3149</address>
+          <p class="form-note">Regular Tuesday clinic. Open Mon&ndash;Tue 8:00 AM&ndash;5:00 PM, Wed&ndash;Fri 9:00 AM&ndash;5:00 PM. Wheelchair accessible entrance and parking.</p>
           <div class="card-actions">
             <a class="btn btn-outline" href="https://www.google.com/maps/search/501+Waverley+Road,+Mount+Waverley" target="_blank" rel="noopener">Get Directions<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
@@ -222,7 +259,8 @@
         <div class="location-card">
           <span class="tag">Consulting</span>
           <h3>St John of God Hospital</h3>
-          <address>75 Kangan Drive<br>Berwick VIC</address>
+          <address>75 Kangan Drive<br>Berwick VIC 3806</address>
+          <p class="form-note">Wednesday clinic, 9:00 AM&ndash;5:00 PM. On-site paid parking (lot &amp; garage). Wheelchair accessible entrance, restroom and parking.</p>
           <div class="card-actions">
             <a class="btn btn-outline" href="https://www.google.com/maps/search/75+Kangan+Drive,+Berwick" target="_blank" rel="noopener">Get Directions<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
@@ -231,6 +269,7 @@
           <span class="tag">Consulting</span>
           <h3>Warragul Specialist Centre</h3>
           <address>197-199 Sutton Street<br>Warragul VIC 3820</address>
+          <p class="form-note">Consults here once every 4 weeks, Friday morning. Wheelchair accessible entrance and parking.</p>
           <div class="card-actions">
             <a class="btn btn-outline" href="https://www.google.com/maps/search/197-199+Sutton+Street,+Warragul,+3820" target="_blank" rel="noopener">Get Directions<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
@@ -239,6 +278,7 @@
           <span class="tag">Consulting</span>
           <h3>White Road Consulting Suites</h3>
           <address>231 White Road<br>Wonthaggi VIC 3995</address>
+          <p class="form-note">Consults here approximately once every 8 weeks, Friday morning. Wheelchair accessible entrance, restroom and parking.</p>
           <div class="card-actions">
             <a class="btn btn-outline" href="https://www.google.com/maps/search/231+White+Road,+Wonthaggi+3995" target="_blank" rel="noopener">Get Directions<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
@@ -246,12 +286,18 @@
         <div class="location-card">
           <span class="tag">Consulting</span>
           <h3>Cowes Medical Centre</h3>
-          <address>164 Thompson Avenue<br>Cowes, Phillip Island VIC</address>
+          <address>164 Thompson Avenue<br>Cowes VIC 3922</address>
+          <p class="form-note">Consults here on a Friday, once a month. Free on-site parking. Wheelchair accessible entrance and parking.</p>
           <div class="card-actions">
             <a class="btn btn-outline" href="https://www.google.com/maps/search/164+Thompson+Avenue,+Cowes+Phillip+Island" target="_blank" rel="noopener">Get Directions<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
         </div>
       </div>
+
+      <p class="lede">The Mount Waverley clinic also sees patients from across Melbourne's south-east inner suburbs, including Ashwood, Ashburton, Burwood, Chadstone, Glen Iris, Glen Waverley, Malvern, Murrumbeena, Notting Hill, Oakleigh and Oakleigh South, and Wantirna South.</p>
+      <p class="lede">Patients also travel to the Berwick clinic from across the Casey and Cardinia region, including Beaconsfield, Clyde and Clyde North, Dandenong and Dandenong South, Doveton, Endeavour Hills, Hallam, Narre Warren and Narre Warren South, Officer and Officer South, Pakenham and Pakenham South, and Cranbourne.</p>
+      <p class="lede">The Cowes clinic also sees patients from across Phillip Island and South Gippsland, including Ventnor, Kilcunda, Newhaven, San Remo, Inverloch, Korumburra, Cape Paterson and Cape Woolamai.</p>
+      <p class="lede">The Warragul clinic also sees patients from across West and Central Gippsland, including Drouin and Drouin East, Darnum, Yarragon and Yarragon South, Trafalgar, Morwell, Lardner, Lillico, Bona Vista, Nilma North, Neerim South, Warragul South and Korumburra.</p>
     </div>
   </section>
 
@@ -323,6 +369,7 @@
           <li><a href="about.html">About Ravi</a></li>
           <li><a href="services.html">Specialty Services</a></li>
           <li><a href="locations.html">Locations</a></li>
+          <li><a href="fees.html">Fees</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
