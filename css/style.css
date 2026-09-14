@@ -582,6 +582,11 @@ section { padding: 48px 0; }
 .location-card address { font-style: normal; color: var(--ink-soft); }
 .location-card .card-actions { margin-top: auto; display: flex; gap: 10px; flex-wrap: wrap; }
 
+/* "Areas we serve" cards — compact catchment-area copy, de-emphasised
+   relative to primary lede text so it reads as supporting detail. */
+.area-card h3 { font-size: 1.05rem; }
+.area-copy { font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin: 0; }
+
 /* Two-column media/text */
 .split {
   display: grid;
@@ -652,6 +657,11 @@ section { padding: 48px 0; }
 .check-list a { display: inline-block; padding: 9px 0; margin: -9px 0; }
 .check-list li { display: flex; gap: 10px; align-items: flex-start; }
 .check-list svg { width: 20px; height: 20px; flex-shrink: 0; color: var(--accent-dark); margin-top: 2px; }
+
+/* Plain bullet list — same rhythm as .check-list, without the icon column. */
+.dot-list { list-style: disc; margin: 0; padding-left: 1.3em; display: grid; gap: 12px; color: var(--ink-soft); }
+.card > .dot-list { margin-top: 1.2em; }
+.dot-list li { padding-left: 2px; }
 
 /* ==========================================================================
    Testimonials
